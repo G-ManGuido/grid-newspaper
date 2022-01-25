@@ -88,7 +88,6 @@ img{
 .sidebar div {
   border: 5px double #333;
   width: 100%;
-  
   text-align: center;
   padding: 1rem;
   margin-top: 1rem;
@@ -96,10 +95,12 @@ img{
 .sidebar div img {
   background: rgba(220,160,140,0.5);
 }
-
 .sidebar div:nth-of-type(1){
   font-size: 3.5rem;
   font-weight: bolder;
   line-height: 3.5rem;
   padding: 1.5rem 0;
+}
+.sidebar div a {
+  color: #333;
 }
